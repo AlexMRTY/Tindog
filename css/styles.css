@@ -1,0 +1,246 @@
+/*********************************** TAGS  ******************************************** */
+
+body {
+  font-family: 'Baloo Da 2', cursive;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+
+h3 {
+  font-size: 2.5rem;
+}
+
+
+em {
+  color: #fff;
+}
+
+
+/* ****************************** CLASSES AND ID ****************************************** */
+
+/* NAVIGATION BAR */
+.navbar {
+  padding-left: 0px;
+}
+
+
+.navbar-brand {
+
+  font-size: 2rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* TITLE SECTION */
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+.head-text {
+  margin: auto;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+#iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+@media (max-width: 1028px) {
+  #iphone {
+    position: static;
+    transform: rotate(0deg);
+
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 60px;
+}
+/* FEATURES  */
+
+#features {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 15%;
+  position: relative;
+}
+
+
+.icon {
+  color: #FF4D69;
+  margin: 2rem;
+  transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.features-text {
+  color: #8f8f8f;
+  padding: 3%;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #FF4D69;
+
+}
+
+.testimonial-image {
+  height: 15%;
+  width: 15%;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.testimonial-text {
+  color: #fff;
+  padding: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  background-color: #FF4D69;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+  color: #000;
+  text-align: center;
+}
+
+.pricing-text {
+  margin-bottom: 100px;
+}
+
+.card-deck {
+  width: 350px;
+
+
+}
+
+
+.first-button {
+  margin-top: 40px;
+}
+
+.second-button {
+  margin-top: 40px;
+}
+
+.card {
+  border-radius: 60px;
+  border: none;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.pricing-option {
+  height: 80px;
+  padding-top: 30px;
+  background-color: #eeeeee;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.fa-check {
+  color: #c4fb6d;
+  padding-right: 10px;
+  text-shadow: 0 0 5px #c4fb6d;
+}
+
+.signup {
+  padding: 5px;
+  width: 102px;
+  text-align: center;
+  border-radius: 60px;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #FF4D69;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+
+  line-height: 1.5;
+  padding-top: 10%;
+
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.social {
+  margin: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
